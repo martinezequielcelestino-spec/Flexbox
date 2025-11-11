@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Flex4 - Responsive Website</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>body{padding:16px}</style>
+</head>
+<body>
+  <div class="container">
+    <header class="d-flex justify-content-between align-items-center bg-primary text-white p-3 rounded">
+      <h3 class="m-0">Mi Web Flex</h3>
+      <nav class="d-flex">
+        <a href="#" class="text-white px-2">Inicio</a>
+        <a href="#" class="text-white px-2">Acerca</a>
+        <a href="#" class="text-white px-2">Contacto</a>
+      </nav>
+    </header>
+
+    <div class="d-flex flex-column flex-md-row mt-3">
+      <aside class="bg-light p-3 flex-fill mb-3 mb-md-0" style="min-width:200px;">Menú lateral</aside>
+      <main class="bg-secondary text-white p-3 flex-fill">Contenido principal<br><small>Se acomoda en columna en pantallas chicas y en fila en md+</small></main>
+    </div>
+
+    <footer class="bg-dark text-center text-white p-2 mt-3 rounded">
+      © 2025 Mi Web Flexbox
+    </footer>
+  </div>
+</body>
+</html>
